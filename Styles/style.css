@@ -73,8 +73,9 @@
 
 .plan-title {
     font-size: 40px;
-    text-align: center;
-    margin: 100px 0 50px 0;
+    margin-left: 550px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 .plan-cards {
@@ -105,10 +106,14 @@
 .lfm-card {
     margin: 200px;
     color: gray;
+    width: 350px;
 }
 .lmf-title {
     font-size: 35px;
     color: black;
+}
+.lfm-description {
+    margin-top: 40px;
 }
 
 /* Third Section (contact) */
