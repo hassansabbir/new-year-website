@@ -36,7 +36,7 @@
     font-weight: bolder;
 }
 
-/* first section (failure para) */
+/* first section (failure of previous year) */
 
 .failures {
     margin-top: 200px;
@@ -45,11 +45,79 @@
 }
 
 .failure-points {
-    width: 400px;
+    width: 450px;
     margin-left: 100px;
+    margin-top: 0;
 }
 
 .failure-title {
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 0;
 }
+.failure-description {
+    color: gray;
+}
+.check-points {
+    margin-top: 30px;
+    color: gray;
+}
+
+.icon {
+    color: green;
+}
+
+
+/* second section (My plan)  */
+
+.plan-title {
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+.plan-cards {
+    text-align: center;
+    margin-left: 130px;
+    display: flex;
+    gap: 95px;
+    margin-bottom: 100px;
+}
+
+.plan-card-title {
+    font-size: 25px;
+    
+}
+.plan-card-description {
+    color: gray;
+}
+
+
+/* Third Section (contact) */
+
+
+.contact-card {
+    background-image: url(../images/gradient1.png), 
+                      url(../images/watch.png);
+    background-repeat:no-repeat ;
+    padding: 80px 50px;
+    width: 900px;
+    margin-left: 110px;
+    margin-bottom: 150px;
+}
+.contact-title {
+    color: white;
+    width: 400px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.call-butt {
+    padding: 10px 25px;
+    color: rgb(0, 140, 255);
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+
