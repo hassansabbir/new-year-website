@@ -94,6 +94,23 @@
 }
 
 
+/* Section Created by me (learn from mistake) */
+
+.learn-from-mistake {
+    display: flex;
+    
+    align-items: center;
+}
+
+.lfm-card {
+    margin: 200px;
+    color: gray;
+}
+.lmf-title {
+    font-size: 35px;
+    color: black;
+}
+
 /* Third Section (contact) */
 
 
